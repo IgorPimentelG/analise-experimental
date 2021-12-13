@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: br.com.ads.aa.arranjos.QuaseOrdenadosTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.046 s <<< FAILURE! - in br.com.ads.aa.arranjos.QuaseOrdenadosTest
+test  Time elapsed: 0.04 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at br.com.ads.aa.arranjos.QuaseOrdenadosTest.test(QuaseOrdenadosTest.java:11)
+
