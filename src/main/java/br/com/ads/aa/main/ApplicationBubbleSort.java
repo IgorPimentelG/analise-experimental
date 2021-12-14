@@ -38,12 +38,12 @@ public class ApplicationBubbleSort {
 			recorderFile.println("----| VETOR INVERSAMENTO ORDENADO |----");
 			BubbleSort.sort(VetorInversamenteOrdenado.getSequencia(tamanho), recorderFile);
 	
-			for(int i = 1; i < 5; i++) {
+			for(int i = 1; i < 6; i++) {
 				recorderFile.printf("--| VETOR QUASE ORDENADO: CASE [%s] |-- %n", i);
 				BubbleSort.sort(VetorQuaseOrdenado.getSequencia(tamanho), recorderFile);
 			}
 	
-			for(int i = 1; i < 5; i++) {
+			for(int i = 1; i < 6; i++) {
 				recorderFile.printf("-----| VETOR ALEATÓRIO: CASE [%s] |-----%n", i);
 				BubbleSort.sort(VetorAleatorio.getSequencia(tamanho), recorderFile);
 			}

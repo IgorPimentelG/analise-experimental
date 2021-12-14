@@ -37,12 +37,12 @@ public class ApplicationQuickSort {
             recorderFile.println("----| VETOR INVERSAMENTO ORDENADO |----");
             QuickSort.sort(VetorInversamenteOrdenado.getSequencia(tamanho), 0, tamanho - 1, recorderFile);
     
-            for(int i = 1; i < 5; i++) {
+            for(int i = 1; i < 6; i++) {
                 recorderFile.printf("--| VETOR QUASE ORDENADO: CASE [%s] |-- %n", i);
                 QuickSort.sort(VetorQuaseOrdenado.getSequencia(tamanho), 0, tamanho - 1, recorderFile);
             }
     
-            for(int i = 1; i < 5; i++) {
+            for(int i = 1; i < 6; i++) {
                 recorderFile.printf("-----| VETOR ALEATÓRIO: CASE [%s] |-----%n", i);
                 QuickSort.sort(VetorAleatorio.getSequencia(tamanho), 0, tamanho - 1, recorderFile);
             }

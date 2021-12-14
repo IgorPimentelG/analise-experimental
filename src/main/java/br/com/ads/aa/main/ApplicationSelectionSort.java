@@ -37,12 +37,12 @@ public class ApplicationSelectionSort {
 			recorderFile.println("----| VETOR INVERSAMENTO ORDENADO |----");
 			SelectionSort.sort(VetorInversamenteOrdenado.getSequencia(tamanho), recorderFile);
 	
-			for(int i = 1; i < 5; i++) {
+			for(int i = 1; i < 6; i++) {
 				recorderFile.printf("--| VETOR QUASE ORDENADO: CASE [%s] |-- %n", i);
 				SelectionSort.sort(VetorQuaseOrdenado.getSequencia(tamanho), recorderFile);
 			}
 	
-			for(int i = 1; i < 5; i++) {
+			for(int i = 1; i < 6; i++) {
 				recorderFile.printf("-----| VETOR ALEATÓRIO: CASE [%s] |-----%n", i);
 				SelectionSort.sort(VetorAleatorio.getSequencia(tamanho), recorderFile);
 			}

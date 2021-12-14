@@ -15,6 +15,9 @@ public abstract class MergeSort {
 		Integer[] left = Arrays.copyOfRange(vetor, inicio, meio + 1);
         Integer[] right = Arrays.copyOfRange(vetor, meio + 1, fim + 1);
 
+		movimentacoesRegistros += left.length;
+		movimentacoesRegistros += right.length;
+
 		Integer leftIndex = 0; 					// Índice do elemento que está sendo comparado no lado esquerdo
 		Integer rightIndex = 0;					// Índice do elemento que está sendo comparado no lado direito 
 		Integer insertIndex = inicio;			// Índice no qual o elemento da esquerda ou direita deve ser inserido no vetor original

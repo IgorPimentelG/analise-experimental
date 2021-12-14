@@ -37,12 +37,12 @@ public class ApplicationMergeSort {
             recorderFile.println("----| VETOR INVERSAMENTO ORDENADO |----");
             MergeSort.sort(VetorInversamenteOrdenado.getSequencia(tamanho), 0, tamanho - 1, recorderFile);
     
-            for(int i = 1; i < 5; i++) {
+            for(int i = 1; i < 6; i++) {
                 recorderFile.printf("--| VETOR QUASE ORDENADO: CASE [%s] |-- %n", i);
                 MergeSort.sort(VetorQuaseOrdenado.getSequencia(tamanho), 0, tamanho - 1, recorderFile);
             }
     
-            for(int i = 1; i < 5; i++) {
+            for(int i = 1; i < 6; i++) {
                 recorderFile.printf("-----| VETOR ALEATÓRIO: CASE [%s] |-----%n", i);
                 MergeSort.sort(VetorAleatorio.getSequencia(tamanho), 0, tamanho - 1, recorderFile);
             }
