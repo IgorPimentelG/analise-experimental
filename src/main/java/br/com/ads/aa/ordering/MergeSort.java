@@ -13,7 +13,7 @@ public abstract class MergeSort {
 
 		// Criar vetores auxiliares para o lado esquerdo e direito do vetor
 		Integer[] left = Arrays.copyOfRange(vetor, inicio, meio + 1);
-        Integer[] right = Arrays.copyOfRange(vetor, meio + 1, fim + 1);
+        	Integer[] right = Arrays.copyOfRange(vetor, meio + 1, fim + 1);
 
 		movimentacoesRegistros += left.length;
 		movimentacoesRegistros += right.length;
